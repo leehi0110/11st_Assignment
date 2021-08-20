@@ -1,0 +1,26 @@
+{
+  "name": "11st_Assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leehi0110/11st_Assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leehi0110/11st_Assignment/issues"
+  },
+  "homepage": "https://github.com/leehi0110/11st_Assignment#readme",
+  "dependencies": {
+    "parcel-bundler": "1.12.5"
+  },
+  "devDependencies": {
+    "sass": "1.38.0"
+  }
+}
