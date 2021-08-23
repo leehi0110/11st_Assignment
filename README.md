@@ -4,9 +4,11 @@
 
 <hr>
 
+```bash
 > npm install package.json
 >
 > parcel index.html
+```bash
 
 <br>
 
