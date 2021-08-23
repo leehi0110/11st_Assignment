@@ -19,6 +19,7 @@
   "homepage": "https://github.com/leehi0110/11st_Assignment#readme",
   "dependencies": {
     "@babel/runtime-corejs3": "7.15.3",
+    "package.json": "2.0.1",
     "parcel-bundler": "1.12.5"
   },
   "devDependencies": {
