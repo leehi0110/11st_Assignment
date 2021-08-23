@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/leehi0110/11st_Assignment#readme",
   "dependencies": {
+    "@babel/runtime-corejs3": "7.15.3",
     "parcel-bundler": "1.12.5"
   },
   "devDependencies": {
+    "@babel/core": "7.15.0",
+    "@babel/plugin-transform-runtime": "7.15.0",
     "sass": "1.38.0"
   }
 }

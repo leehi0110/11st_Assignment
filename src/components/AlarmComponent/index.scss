@@ -1,0 +1,56 @@
+.alarmContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.alarmSetContainer {
+  display: none;
+
+  &.active {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+    .ampm, .alarmhrs, .alarmmins, .setBtn {
+      padding: 5px 10px;
+      margin: 0 10px;
+    }
+  
+    .setBtn {
+      background-color: transparent;
+      border: 1px solid #000;
+      border-radius: 10px;
+    }
+  
+    p {
+      font-weight: 700;
+    }
+  }
+  
+}
+
+.alarmList {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+
+  .alarmItem {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+
+    .clearAlarmBtn {
+      padding: 0 10px;
+      background: transparent;
+      color: #ff003c;
+      border-radius: 10px;
+      border: 1px solid #ff003c;
+    }
+  }
+}

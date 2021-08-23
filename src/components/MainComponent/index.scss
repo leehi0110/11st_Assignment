@@ -1,0 +1,35 @@
+.mainContainer {
+  width:100%;
+  height: 100%;
+
+  .iconsList {
+    list-style: none; 
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .icon {
+      width: 100px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      .anchor {
+        color: #000;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        border-radius: 20px;
+      }
+
+      &.dragging {
+        opacity: 0.3;
+      }
+    }
+  }
+}
